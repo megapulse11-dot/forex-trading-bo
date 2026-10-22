@@ -1,0 +1,46 @@
+{
+  "name": "forex-trading-bot",
+  "version": "1.0.0",
+  "description": "A comprehensive forex trading bot with automated strategies and real-time market data.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "forex",
+    "trading",
+    "bot",
+    "algorithmic",
+    "trading-bot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chrono-node": "^2.4.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.8",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.0.0",
+    "joi": "^17.9.2",
+    "lightweight-charts": "^5.2.1",
+    "lodash": "^4.17.21",
+    "socket.io": "^4.7.2",
+    "winston": "^3.10.0",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "supertest": "^6.3.0"
+  }
+}
